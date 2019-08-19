@@ -7,6 +7,8 @@
     "react": "^15.5.4"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
     "react": "^15.5.4",
     "webpack": "^2.6.1"
   },
