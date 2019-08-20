@@ -2,14 +2,16 @@
   "name": "course-components",
   "version": "0.0.1",
   "description": "Components for LearnUXD courses",
-  "main": "build/index.js",
+  "main": "src/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
   },
   "dependencies": {
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
-    "react": "^15.5.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "webpack": "^2.6.1"
   },
   "scripts": {
@@ -27,6 +29,7 @@
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.5.1",
+    "webpack-cli": "^3.3.7"
   }
 }

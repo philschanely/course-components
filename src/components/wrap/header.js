@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import NavMain from "./nav-main";
-import Brand from "./brand";
+import NavMain from "../nav/main";
+import Brand from "../brand/base";
 
 const Header = ({ activePath, pages, title }) => {
   console.log(pages, title);

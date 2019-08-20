@@ -1,11 +1,31 @@
-import Brand from "./components/brand";
-import FooterBrand from "./components/brand-footer";
-import Header from "./components/header";
-// import NavMain from "./components/nav-main";
+import Brand from "./components/brand/base";
+import Footer from "./components/wrap/footer";
+import FooterBrand from "./components/brand/footer";
+import Header from "./components/wrap/header";
+import LayoutPaginated from "./components/layouts/paginated";
+import LayoutSimple from "./components/layouts/simple";
+import Lockup from "./components/lockup/lockup";
+import LockupGroup from "./components/lockup/group";
+import NavFooter from "./components/nav/footer";
+import NavMain from "./components/nav/main";
+import Subpage from "./components/subpage/subpage";
+import SubpageContainer from "./components/subpage/container";
+import SubpageNavigation from "./components/subpage/navigation";
+import SubpagePager from "./components/subpage/pager";
 
 export {
   Brand,
-  FooterBrand,
   Header,
-  // NavMain,
+  Footer,
+  FooterBrand,
+  LayoutPaginated,
+  LayoutSimple,
+  Lockup,
+  LockupGroup,
+  NavFooter,
+  NavMain,
+  Subpage,
+  SubpageContainer,
+  SubpageNavigation,
+  SubpagePager
 };
