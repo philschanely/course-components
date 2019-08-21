@@ -1,4 +1,5 @@
 import Brand from "./components/brand/base";
+import Callout from "./components/callout";
 import Footer from "./components/wrap/footer";
 import FooterBrand from "./components/brand/footer";
 import Header from "./components/wrap/header";
@@ -15,6 +16,7 @@ import SubpagePager from "./components/subpage/pager";
 
 export {
   Brand,
+  Callout,
   Header,
   Footer,
   FooterBrand,
