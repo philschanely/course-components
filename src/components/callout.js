@@ -4,7 +4,6 @@ import ClassNames from "classnames";
 
 
 const CalloutContainer = ({ type, color, children }) => {
-  let colorClass = color ? "callout--" + color : false
   let classNames = ClassNames(
     "callout",
     {
@@ -29,9 +28,22 @@ const CalloutNumber = ({ number }) => {
 };
 
 const CalloutIcon = ({ icon, iconStyle }) => {
+  icon = icon || "book";
+  iconStyle = iconStyle || "fal";
+  let iconClassNames = ClassNames(
+    "icon",
+    "icon--static",
+    "icon--halo",
+    "icon--lg",
+    {
+      [`${iconStyle}`]: iconStyle,
+      [`fa-${icon}`]: icon,
+    }
+  );
+
   return (
     <div className="callout__icon">
-      <i className="icon icon--static icon--halo icon--lg fal fa-book"></i>
+      <i className={iconClassNames}></i>
     </div>
   )
 };
