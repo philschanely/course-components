@@ -2,7 +2,7 @@ import React from "react";
 
 import ClassNames from "classnames";
 
-const SubpageNavigation = ({ hasSubpages, subpages, children, onClickNavItem }) => {
+const SubpageNavigation = ({ hasSubpages, subpages, onClickNavItem }) => {
   if (hasSubpages) {
     return (
       <nav className="l-side-nav side-nav">
