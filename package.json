@@ -1,6 +1,6 @@
 {
   "name": "course-components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Components for LearnUXD courses",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -8,6 +8,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
