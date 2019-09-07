@@ -1,5 +1,4 @@
 import React from "react";
-
 import ClassNames from "classnames";
 
 const SubpageNavigation = ({ hasSubpages, subpages, onClickNavItem }) => {

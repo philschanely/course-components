@@ -1,4 +1,5 @@
 import React from "react";
+
 import Subpage from "./subpage";
 
 const SubpageContainer = ({ hasSubpages, subpages, children }) => {
