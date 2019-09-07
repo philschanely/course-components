@@ -1,7 +1,5 @@
 import React from "react";
-
 import ClassNames from "classnames";
-
 
 const CalloutContainer = ({ type, color, children }) => {
   let classNames = ClassNames(
