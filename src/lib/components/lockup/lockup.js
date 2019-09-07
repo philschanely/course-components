@@ -10,7 +10,7 @@ const Lockup = ({ id, slug, title, type, excerpt, number, cover }) => {
   coverSrc += "/420x420";
 
   return (
-    <li className="lockup">
+    <li className="lockup" id={id}>
       <header>
         <h3 className="lockup__title">
           <a className="lockup__title-link" href={slug}>
