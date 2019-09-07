@@ -8,6 +8,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
