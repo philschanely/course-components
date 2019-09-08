@@ -54,7 +54,7 @@ const CalloutText = ({ children }) => {
   )
 };
 
-const Callout = ({ term, lead, color, children, number, icon }) => {
+const Callout = ({ term, lead, color, children, number, icon, iconStyle }) => {
   let type = term && number
     ? "term"
     : (
@@ -79,7 +79,7 @@ const Callout = ({ term, lead, color, children, number, icon }) => {
     case "lead":
       content = (
         <React.Fragment>
-    			<CalloutIcon icon={icon} />
+    			<CalloutIcon icon={icon} iconStyle={iconStyle} />
     			<CalloutText lead={true}>
             {children}
           </CalloutText>
