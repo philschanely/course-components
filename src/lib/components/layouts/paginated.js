@@ -98,7 +98,6 @@ class PaginatedLayout extends React.Component {
     });
 
     this.setState({ navItems }, () => {
-      console.log("Call navigate here!");
       this.props.onClickNavItem(slug);
     });
   }
